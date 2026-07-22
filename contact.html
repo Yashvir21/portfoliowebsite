@@ -3,12 +3,16 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contact | Yashvir Ramdoel</title>
+    <title>Contact | Yashvir Ramdoel</title>
 
-<link rel="stylesheet" href="../css/contact.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Contact Page CSS -->
+    <link rel="stylesheet" href="../css/contact.css">
 
 </head>
 
@@ -18,43 +22,44 @@
 
 <header>
 
-<nav class="navbar">
+    <nav class="navbar">
 
 
-<div class="logo">
-    <a href="./index.html">YR</a>
-</div>
+        <div class="logo">
+            <a href="./index.html">YR</a>
+        </div>
 
 
-<ul class="nav-links">
-
-<li>
-<a href="./index.html">Home</a>
-</li>
+        <ul class="nav-links">
 
 
-<li>
-<a href="./about.html">About</a>
-</li>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
 
 
-<li>
-<a href="./work.html">Work</a>
-</li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
 
 
-<li>
-<a href="./contact.html">Contact</a>
-</li>
+            <li>
+                <a href="./work.html">Work</a>
+            </li>
 
 
-</ul>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
 
 
-</nav>
+        </ul>
 
+
+    </nav>
 
 </header>
+
 
 
 
@@ -63,191 +68,202 @@
 <section class="contact">
 
 
-<h1>Contact Me</h1>
+    <h1>
+        Contact Me
+    </h1>
 
 
-<p class="subtitle">
+    <p class="subtitle">
+        Have a project or opportunity?
+        Feel free to contact me.
+    </p>
 
-Have a project or opportunity?
-Feel free to contact me.
 
-</p>
 
 
 
+    <div class="contact-container">
 
 
-<div class="contact-container">
 
+        <!-- Contact Information -->
 
 
-<!-- Contact Information -->
+        <div class="contact-info">
 
 
-<div class="contact-info">
+            <h2>
+                Get In Touch
+            </h2>
 
 
-<h2>Get In Touch</h2>
 
+            <div class="info-card">
 
+                <h3>
+                    Email
+                </h3>
 
-<div class="info-card">
+                <p>
+                    yramdoel@gmail.com
+                </p>
 
-<h3>Email</h3>
+            </div>
 
-<p>
-yramdoel@gmail.com
-</p>
 
-</div>
 
 
 
+            <div class="info-card">
 
+                <h3>
+                    Phone
+                </h3>
 
-<div class="info-card">
+                <p>
+                    +597 8647709
+                </p>
 
-<h3>Phone</h3>
+            </div>
 
-<p>
-+597 8647709
-</p>
 
-</div>
 
 
 
+            <div class="info-card">
 
+                <h3>
+                    Location
+                </h3>
 
-<div class="info-card">
+                <p>
+                    Suriname
+                </p>
 
-<h3>Location</h3>
+            </div>
 
-<p>
-Suriname
-</p>
 
-</div>
 
 
 
+            <div class="info-card">
 
+                <h3>
+                    Social Media
+                </h3>
 
-<div class="info-card">
 
-<h3>Social Media</h3>
+                <p>
+                    <a href="#">
+                        Facebook
+                    </a>
+                </p>
 
 
-<p>
+                <p>
+                    <a href="#">
+                        Instagram
+                    </a>
+                </p>
 
-<a href="#">
-Facebook
-</a>
 
-</p>
+                <p>
+                    <a href="#">
+                        LinkedIn
+                    </a>
+                </p>
 
-<p>
 
-<a href="#">
-Instagram
-</a>
+            </div>
 
-</p>
 
-<p>
 
-<a href="#">
-LinkedIn
-</a>
+        </div>
 
-</p>
 
 
-</div>
 
 
 
-</div>
+        <!-- Contact Form -->
 
 
+        <div class="contact-form">
 
 
+            <h2>
+                Send Message
+            </h2>
 
 
-<!-- Contact Form -->
 
+            <form id="contactForm">
 
-<div class="contact-form">
 
+                <label>
+                    Name
+                </label>
 
-<h2>Send Message</h2>
 
+                <input 
+                    type="text" 
+                    id="name"
+                    placeholder="Your name"
+                >
 
-<form id="contactForm">
 
 
-<label>
-Name
-</label>
 
 
-<input 
-type="text" 
-id="name"
-placeholder="Your name"
->
+                <label>
+                    Email
+                </label>
 
 
+                <input 
+                    type="email" 
+                    id="email"
+                    placeholder="Your email"
+                >
 
 
-<label>
-Email
-</label>
 
 
-<input 
-type="email" 
-id="email"
-placeholder="Your email"
->
 
+                <label>
+                    Message
+                </label>
 
 
+                <textarea 
+                    id="message"
+                    placeholder="Your message">
+                </textarea>
 
-<label>
-Message
-</label>
 
 
-<textarea 
-id="message"
-placeholder="Your message">
-</textarea>
 
 
+                <button type="submit">
+                    Send Message
+                </button>
 
 
-<button type="submit">
 
-Send Message
+                <p id="formMessage"></p>
 
-</button>
 
 
+            </form>
 
-<p id="formMessage"></p>
 
+        </div>
 
 
-</form>
 
 
-</div>
 
-
-
-
-</div>
+    </div>
 
 
 
@@ -258,13 +274,12 @@ Send Message
 
 
 
+
 <footer>
 
-<p>
-
-© 2026 Yashvir Ramdoel | Software Engineering Portfolio
-
-</p>
+    <p>
+        © 2026 Yashvir Ramdoel | Software Engineering Portfolio
+    </p>
 
 </footer>
 
@@ -272,7 +287,9 @@ Send Message
 
 
 
-<script src="./js/contact.js"></script>
+
+
+<script src="../js/contact.js"></script>
 
 
 </body>
